@@ -36,6 +36,7 @@ Closes #<!-- issue number -->
 - [ ] The branch name vaguely reflects the chaos introduced
 
 ### General
+- [ ] Future contributors may question my decisions, but not my confidence
 - [ ] Code has been self-reviewed
 - [ ] No secrets, credentials, or hardcoded paths were smuggled in
 - [ ] I have read the CONTRIBUTING.md guidelines
@@ -50,7 +51,7 @@ Closes #<!-- issue number -->
 
 # Additional Notes
 
-<!-- Anything reviewers should know before emotionally processing this PR -->
+<!-- Describe any engineering crimes committed responsibly -->
 
 ---
 
