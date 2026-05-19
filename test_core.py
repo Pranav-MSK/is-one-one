@@ -2,6 +2,12 @@
 
 import unittest
 import is_one_one
+import sys
+import io
+
+# Fix for Windows console encoding issues with emojis
+if sys.platform == "win32":
+    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 
 
 class TestIsOne(unittest.TestCase):
@@ -34,6 +40,10 @@ class TestIsOne(unittest.TestCase):
     def test_is_one_using_roman_numerals(self):
         """Roman numeral I equals 1."""
         self.assertTrue(is_one_one.is_one_using_roman_numerals())
+
+    def test_the_one_suriya(self):
+        """Verify that Suriya is number one."""
+        self.assertTrue(is_one_one.the_one_suriya())
 
     def test_is_one_just_to_be_sure(self):
         """The ultimate recursive confirmation."""
