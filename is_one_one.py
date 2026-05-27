@@ -143,6 +143,7 @@ def is_one_just_to_be_sure():
         is_one_under_extreme_pressure(),
         the_one_suriya(),
         is_one_using_vector_magnitude(),
+        is_one_using_existential_crisis(),
     ])
 
 def main():
