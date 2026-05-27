@@ -25,7 +25,7 @@ jobs:
  
             Thanks for opening your first issue. Our team of engineering students will look into this soon! We love exploring new and creative ways to prove `1 == 1`. 
  
-            While you wait, please take a look at our [Contributing Guidelines](https://github.com) to see how we structure our project. We look forward to collaborating with you! 🚀
+            While you wait, please take a look at our [Contributing Guidelines](https://github.com/Py-Contributors/is-one-one/blob/85c9377cad3dd45a38b117f53dbbef99158c0224/CONTRIBUTING.md) to see how we structure our project. We look forward to collaborating with you! 🚀
  
       - name: Welcome First-Time PR Author
         if: github.event_name == 'pull_request_target'
@@ -37,4 +37,4 @@ jobs:
  
             Thank you for submitting your first pull request! We really appreciate your time and effort in contributing to the project. 
  
-            Our automated test suite will run shortly to verify your contribution. In the meantime, please review our [Contributing Guidelines](https://github.com) to ensure your PR matches our repository requirements. Happy coding! 🧠
+            Our automated test suite will run shortly to verify your contribution. In the meantime, please review our [Contributing Guidelines](https://github.com/Py-Contributors/is-one-one/blob/85c9377cad3dd45a38b117f53dbbef99158c0224/CONTRIBUTING.md) to ensure your PR matches our repository requirements. Happy coding! 🧠
