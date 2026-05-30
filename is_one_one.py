@@ -103,6 +103,36 @@ def is_one_using_vector_magnitude():
     if np.linalg.norm(v_hat) == 1:
         return True
     return False
+  
+def Anik_one(a):
+    a=100/100
+    return bool(a) # cause you cant deny facts
+
+def is_one_using_existential_crisis():
+    """Proves 1 == 1 by having a full philosophical breakdown first."""
+    things_that_exist = []
+ 
+    # gather evidence that existence is real
+    things_that_exist.append("this function")
+    things_that_exist.append("your regret for reading this")
+    things_that_exist.append("the concept of the number one")
+    things_that_exist.append("the void")
+    things_that_exist.append("also the void's cousin, emptiness")
+ 
+    # remove the void because it contributes nothing (as expected)
+    things_that_exist = [t for t in things_that_exist if "void" not in t]
+ 
+    # the concept of the number one definitely exists
+    # int(True) == 1. This is load-bearing philosophy.
+    conceptual_one = int("the concept of the number one" in things_that_exist)
+ 
+    # Descartes said cogito ergo sum. We say computas ergo unum.
+    cogito = True  # I think
+    ergo = cogito  # therefore
+    sum_ = ergo    # I am
+    unum = int(sum_)  # I am... one
+ 
+    return unum == conceptual_one == 1
 
 def is_one_just_to_be_sure():
     """Verifies one by aggregating every proof."""
@@ -117,6 +147,7 @@ def is_one_just_to_be_sure():
         is_one_under_extreme_pressure(),
         the_one_suriya(),
         is_one_using_vector_magnitude(),
+        is_one_using_existential_crisis(),
     ])
 
 def main():
@@ -133,6 +164,7 @@ def main():
         is_one_under_extreme_pressure,
         the_one_suriya,
         is_one_using_vector_magnitude,
+        is_one_using_existential_crisis,
     ]
   
     print("🧠 Running overengineered checks to see if 1 == 1:\n")
